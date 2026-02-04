@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0652e8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;          
+  padding: 30px;
+  text-align: center;     
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.filter-box {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+  gap: 20px;
+}
+
+.card {
+  background: rgb(0, 0, 0);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.electronics {
+  background: #2563eb;
+  color: rgb(0, 0, 0);
+  padding: 5px 12px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.clothing {
+  background: #93c5fd;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 20px;
+  display: inline-block;
+}
